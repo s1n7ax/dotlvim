@@ -1,0 +1,2 @@
+# dotlvim
+My Lunarvim configuration
