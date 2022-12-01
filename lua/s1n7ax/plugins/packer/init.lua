@@ -29,4 +29,11 @@ lvim.plugins = {
       require('s1n7ax.plugins.glance')
     end,
   },
+  {
+    "folke/trouble.nvim",
+    requires = "kyazdani42/nvim-web-devicons",
+    config = function()
+      require("trouble").setup {}
+    end
+  }
 }
